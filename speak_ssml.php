@@ -3,10 +3,11 @@
 
 $speech = [
 
+  // Change this to whatever SSML you want to convert to audio
   'Text' => '
     <speak>
     Hi! My name is Emma.
-    Welcome to the Amazon Polly demo at <say-as interpret-as="spell-out">PHP</say-as> <w role="ivona:NN">Las Vegas</w>.
+    Welcome to the Amazon Polly demo.
     Today is <say-as interpret-as="date">????0406</say-as>
     </speak>',
 
@@ -18,8 +19,8 @@ $speech = [
 
 $config = [
   'version' => 'latest',
-  'region' => 'us-west-2',
-  'credentials' => [ // PHP_Demo
+  'region' => 'us-west-2', // Change this to your respective AWS region
+  'credentials' => [ // Change these to your respective AWS credentials
     'key' => 'XXXXXXXXXXXXXXXXXXXX',
     'secret' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   ]
