@@ -15,7 +15,7 @@ $speech = [
 $config = [
   'version' => 'latest',
   'region' => 'us-west-2', // Change this to your respective AWS region
-  'credentials' => [
+  'credentials' => [ // Change these to your respective AWS credentials
     'key' => 'XXXXXXXXXXXXXXXXXXXX',
     'secret' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   ]
