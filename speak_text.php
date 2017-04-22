@@ -2,8 +2,10 @@
 
 
 $speech = [
-
-  'Text' => 'Hi! My name is Emma. Welcome to the Amazon Polly demo at PHP Las Vegas.',
+  
+  // Change this to whatever text you want to convert to audio
+  'Text' => 'Hi! My name is Emma. Welcome to the Amazon Polly demo.',
+  
   'OutputFormat' => 'mp3',
   'TextType' => 'text',
   'VoiceId' => 'Emma'
@@ -12,8 +14,8 @@ $speech = [
 
 $config = [
   'version' => 'latest',
-  'region' => 'us-west-2',
-  'credentials' => [ // PHP_Demo
+  'region' => 'us-west-2', // Change this to your respective AWS region
+  'credentials' => [
     'key' => 'XXXXXXXXXXXXXXXXXXXX',
     'secret' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   ]
