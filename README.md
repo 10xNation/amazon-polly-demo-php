@@ -1,9 +1,8 @@
 # Simple Amazon Polly Demo in PHP
 
-
-Demo from presentation: [10 Things Every PHP Developer Should Know About Machine Learning](https://drive.google.com/open?id=1a0zjHTTU0vShNmUdbNn8PSFXhBnIpYWs6GK_f8kXgTg)
-
-And blog post: [Give Your Products the Power of Speech Using Amazon Polly](https://gigaom.com/2017/04/24/give-your-products-the-power-of-speech-using-amazon-polly/)
+Demo code used in:
+* Presentation: [10 Things Every PHP Developer Should Know About Machine Learning](https://drive.google.com/open?id=1a0zjHTTU0vShNmUdbNn8PSFXhBnIpYWs6GK_f8kXgTg)
+* Blog post: [Give Your Products the Power of Speech Using Amazon Polly](https://gigaom.com/2017/04/24/give-your-products-the-power-of-speech-using-amazon-polly/)
 
 
 Requires the AWS SDK: [http://docs.aws.amazon.com/aws-sdk-php/v3/api/index.html](http://docs.aws.amazon.com/aws-sdk-php/v3/api/index.html)
